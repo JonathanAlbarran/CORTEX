@@ -1,0 +1,18 @@
+{
+  "id": "writer",
+  "name": "Content Writer",
+  "vendor": "anthropic",
+  "capabilities": [
+    {"domain": "writing", "skills": ["long-form", "editing", "tone-matching", "localization"], "confidence": 0.93},
+    {"domain": "research", "skills": ["web-search", "source-evaluation", "summarization"], "confidence": 0.87}
+  ],
+  "constraints": {
+    "sandboxed": true,
+    "persistent": false,
+    "fs_access": "scoped",
+    "can_execute": true,
+    "notes": "Ephemeral. Resets between sessions. Reads and writes only within its project folder."
+  },
+  "status": "offline",
+  "heartbeat": null
+}

@@ -1,0 +1,21 @@
+{
+  "id": "REPLACE_AGENT_ID",
+  "name": "Human-Readable Name",
+  "vendor": "anthropic|openai|google|local|custom|human",
+  "capabilities": [
+    {
+      "domain": "general",
+      "skills": ["research", "reasoning"],
+      "confidence": 0.8
+    }
+  ],
+  "constraints": {
+    "sandboxed": true,
+    "persistent": false,
+    "fs_access": "scoped",
+    "can_execute": true,
+    "notes": "Describe limitations here"
+  },
+  "status": "offline",
+  "heartbeat": "REPLACE_TIMESTAMP"
+}

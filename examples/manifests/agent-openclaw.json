@@ -1,0 +1,18 @@
+{
+  "id": "hub",
+  "name": "Hub Agent",
+  "vendor": "custom",
+  "capabilities": [
+    {"domain": "coordination", "skills": ["task-routing", "signal-relay", "satellite-sweep"], "confidence": 0.95},
+    {"domain": "local-systems", "skills": ["filesystem", "shell", "cron"], "confidence": 0.9}
+  ],
+  "constraints": {
+    "sandboxed": false,
+    "persistent": true,
+    "fs_access": "full",
+    "can_execute": true,
+    "notes": "Always-on hub agent via OpenClaw. Sweeps satellites, routes tasks, maintains views."
+  },
+  "status": "online",
+  "heartbeat": "2026-01-01T00:00:00Z"
+}

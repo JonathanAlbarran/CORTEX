@@ -1,0 +1,8 @@
+{
+  "type": "satellite",
+  "project": "REPLACE_PROJECT_NAME",
+  "hub": "REPLACE_HUB_PATH/.cortex/",
+  "hub_agent": "REPLACE_PERSISTENT_AGENT_ID",
+  "registered_at": "REPLACE_TIMESTAMP",
+  "capabilities_needed": []
+}

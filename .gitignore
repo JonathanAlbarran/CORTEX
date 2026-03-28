@@ -1,0 +1,18 @@
+# Runtime data — never commit live state
+.cortex/agents/*/log/*.json
+.cortex/agents/*/inbox/*.json
+.cortex/tasks/*.json
+.cortex/views/*.json
+!.cortex/tasks/.gitkeep
+!.cortex/views/.gitkeep
+
+# Staging area (may contain sensitive config)
+.cortex/staging/*
+!.cortex/staging/.gitkeep
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Temp files from atomic writes (PROTOCOL.md §10)
+*.tmp.*

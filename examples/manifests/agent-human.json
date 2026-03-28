@@ -1,0 +1,17 @@
+{
+  "id": "human",
+  "name": "Human Operator",
+  "vendor": "human",
+  "capabilities": [
+    {"domain": "all", "skills": ["decision-making", "judgment", "approval"], "confidence": 1.0}
+  ],
+  "constraints": {
+    "sandboxed": false,
+    "persistent": true,
+    "fs_access": "full",
+    "can_execute": true,
+    "notes": "Final authority. Creates tasks, clears quarantines, approves escalations."
+  },
+  "status": "online",
+  "heartbeat": null
+}
